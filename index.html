@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin Fashion</title>
+
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                price : '#FABE4C',
+                
+              }
+             
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <!--=========== header part Start============= -->
+ 
+   <header class="bg-[#fff9ea]">
+    <!-- <nav>
+       <div class="flex justify-around gap-32 pt-8 font-medium font-base">
+            <div class="logo">
+                <img class="w-72" src="images/logo.png" alt="">
+            </div>
+            <div class="menu">
+                <ul class="flex gap-14">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+       </div>
+    </nav> -->
+        <div class="md:flex justify-evenly items-center container pt-3">
+            <div class="px-10">
+                <h1 class="text-6xl font-semibold uppercase"> <span class="text-amber-400	">
+                    Be the Penguins
+                </span>
+                    <br>
+                    of Winter</h1>
+                    <p class="text-sm mt-4 ">Lorem Ipsum is simply dummy text of the printing 
+                        <br> and typesetting industry.</p>
+                <button class=" mt-4 px-6 py-3 rounded text-white uppercase   bg-gradient-to-r from-[#A4BC46] to-[#85A019]"><img class="w-8 inline" src="images/icons/shopping-cart 1.png" alt=""> Buy Now</button>
+            </div>
+            <div>
+                <img class="md:w-full w-3/4 pl-10" src="images/model.png" alt="">
+            </div>
+        </div>
+   </header>
+      <!--=========== header part End============= -->
+      <!--=========== Women Jacket part Start============= -->
+      <section class="container mx-auto">
+           <h1 class=" mt-20 ml-5 text-[#363958] text-4xl font-bold uppercase">Women Jacket</h1>
+           <!-- Jacket 01 -->
+         <div class="grid grid-cols-1 md:grid-cols-3 gap-7 mt-5">
+            <div class="rounded-lg p-5 drop-shadow-lg bg-white">
+                <div class="rounded-2xl p-8 bg-slate-100">
+                    <img class="w-72" src="images/jacket-1.png" alt="">
+               </div>
+               <div>
+                    <h3 class="text-2xl mt-5">Yellow Coat Jacket </h3>
+                    <p class="text-base">Lorem Ipsum is simply dummy text of the 
+                        printing and typesetting industry. simply dummy text of the 
+                        printing and typesetting </p>
+                    <div class="flex justify-between">
+                        <p class="text-4xl pt-5 font-black text-price">$234</p>
+                        <button class=" mt-4 px-6 py-3 rounded text-white uppercase   bg-gradient-to-r from-[#A4BC46] to-[#85A019]"><img class="w-8 inline" src="images/icons/shopping-cart 1.png" alt=""> Buy Now</button>
+                    </div>
+               </div>
+             </div>
+              <!-- Jacket 02 -->
+              <div class="rounded-lg p-5 drop-shadow-lg bg-white">
+                <div class="rounded-2xl p-8 bg-slate-100">
+                    <img class="w-72" src="images/jacket-2.png" alt="">
+               </div>
+               <div>
+                    <h3 class="text-2xl mt-5">Ladies Jacket </h3>
+                    <p class="text-base">Lorem Ipsum is simply dummy text of the 
+                        printing and typesetting industry. simply dummy text of the 
+                        printing and typesetting </p>
+                    <div class="flex justify-between">
+                        <p class="text-4xl pt-5 font-black text-price">$234</p>
+                        <button class=" mt-4 px-6 py-3 rounded text-white uppercase   bg-gradient-to-r from-[#A4BC46] to-[#85A019]"><img class="w-8 inline" src="images/icons/shopping-cart 1.png" alt=""> Buy Now</button>
+                    </div>
+               </div>
+             </div>
+              <!-- Jacket 03 -->
+              <div class="rounded-lg p-5 drop-shadow-lg bg-white">
+                <div class="rounded-2xl p-8 bg-slate-100">
+                    <img class="w-72" src="images/jacket-3.png" alt="">
+               </div>
+               <div>
+                    <h3 class="text-2xl mt-5">Weather Women Jacket </h3>
+                    <p class="text-base">Lorem Ipsum is simply dummy text of the 
+                        printing and typesetting industry. simply dummy text of the 
+                        printing and typesetting </p>
+                    <div class="flex justify-between">
+                        <p class="text-4xl pt-5 font-black text-price">$234</p>
+                        <button class=" mt-4 px-6 py-3 rounded text-white uppercase   bg-gradient-to-r from-[#A4BC46] to-[#85A019]"><img class="w-8 inline" src="images/icons/shopping-cart 1.png" alt=""> Buy Now</button>
+                    </div>
+               </div>
+             </div>
+         </div>
+      </section>
+      <!--=========== Women Jacket part End============= -->
+      <!--=========== Men Jacket part Start============= -->
+      <section class="container mx-auto">
+        <h1 class=" mt-20 ml-5 text-[#363958] text-4xl font-bold uppercase">Man Jacket</h1>
+        <!-- Jacket 01 -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-7 mt-5">
+         <div class="rounded-lg p-5 drop-shadow-lg bg-white">
+             <div class="rounded-2xl p-8 bg-slate-100">
+                 <img class="w-72" src="images/jacket-4.png" alt="">
+            </div>
+            <div>
+                 <h3 class="text-2xl mt-5">Snowboard Jacket Mens</h3>
+                 <p class="text-base">Lorem Ipsum is simply dummy text of the 
+                     printing and typesetting industry. simply dummy text of the 
+                     printing and typesetting </p>
+                 <div class="flex justify-between">
+                     <p class="text-4xl pt-5 font-black text-price">$234</p>
+                     <button class=" mt-4 px-6 py-3 rounded text-white uppercase   bg-gradient-to-r from-[#A4BC46] to-[#85A019]"><img class="w-8 inline" src="images/icons/shopping-cart 1.png" alt=""> Buy Now</button>
+                 </div>
+            </div>
+          </div>
+           <!-- Jacket 02 -->
+           <div class="rounded-lg p-5 drop-shadow-lg bg-white">
+             <div class="rounded-2xl p-8 bg-slate-100">
+                 <img class="w-72" src="images/jacket-5.png" alt="">
+            </div>
+            <div>
+                 <h3 class="text-2xl mt-5">Man Leather Jackets </h3>
+                 <p class="text-base">Lorem Ipsum is simply dummy text of the 
+                     printing and typesetting industry. simply dummy text of the 
+                     printing and typesetting </p>
+                 <div class="flex justify-between">
+                     <p class="text-4xl pt-5 font-black text-price">$234</p>
+                     <button class=" mt-4 px-6 py-3 rounded text-white uppercase   bg-gradient-to-r from-[#A4BC46] to-[#85A019]"><img class="w-8 inline" src="images/icons/shopping-cart 1.png" alt=""> Buy Now</button>
+                 </div>
+            </div>
+          </div>
+           <!-- Jacket 03 -->
+           <div class="rounded-lg p-5 drop-shadow-lg bg-white">
+             <div class="rounded-2xl p-8 bg-slate-100">
+                 <img class="w-72" src="images/jacket-6.png" alt="">
+            </div>
+            <div>
+                 <h3 class="text-2xl mt-5">Man Casual Jackets </h3>
+                 <p class="text-base">Lorem Ipsum is simply dummy text of the 
+                     printing and typesetting industry. simply dummy text of the 
+                     printing and typesetting </p>
+                 <div class="flex justify-between">
+                     <p class="text-4xl pt-5 font-black text-price">$234</p>
+                     <button class=" mt-4 px-6 py-3 rounded text-white uppercase   bg-gradient-to-r from-[#A4BC46] to-[#85A019]"><img class="w-8 inline" src="images/icons/shopping-cart 1.png" alt=""> Buy Now</button>
+                 </div>
+            </div>
+          </div>
+      </div>
+   </section>
+      <!--=========== Men Jacket part End============= -->
+      <!--=========== Feature part Start============= -->
+      <section class="container mt-24 mx-auto ">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                <div class="flex flex-col gap-5">
+                    <div class="flex bg-white drop-shadow-lg h-32 p-8 w-fit rounded-lg ">
+                        <img class="h-20 w-20" src="images/box.png" alt="">
+                      <div class="ml-5">
+                        <h2 class="text-2xl">Find the Perfect Fit</h2>
+                        <p>Everybody is different, which is why we <br>
+                            offer styles for every body.</p>
+                      </div>
+                    </div>
+
+                    <div class="flex bg-white drop-shadow-lg h-32 p-8 w-fit rounded-lg ">
+                        <img class="h-20 w-20" src="images/house.png" alt="">
+                      <div class="ml-5">
+                        <h2 class="text-2xl">Free Exchanges</h2>
+                        <p>Everybody is different, which is why we <br>
+                            offer styles for every body.</p>
+                      </div>
+                    </div>
+
+                    <div class="flex bg-white drop-shadow-lg h-32 p-8 w-fit rounded-lg ">
+                        <img class="h-20 w-20" src="images/question.png" alt="">
+                      <div class="ml-5">
+                        <h2 class="text-2xl">Contact Our Seller</h2>
+                        <p>Everybody is different, which is why we <br>
+                            offer styles for every body.</p>
+                      </div>
+                    </div>
+                </div>
+
+                
+                <div>
+                    <img class="" src="images/shopping.png" alt="">
+                </div>
+            </div>
+      </section>
+      <!--=========== Feature part End============= -->
+</body>
+</html>
